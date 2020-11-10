@@ -44,6 +44,12 @@ cd usingjupyterwithdocker/Step1_LaunchingImageFromCommandLine
  bash run_jupyter_minimal.sh
 ````
 
+OR
+
+````
+docker run -p 8888:8888 -e JUPYTER_TOKEN=letmein -v /Users/paulogier/87-docker_parent/usingjupyterwithdocker/Step1_LaunchingImageFromCommandLine/Jupyter_Home_Folder:/home/jovyan jupyter/minimal-notebook
+````
+
 ### Verify that the home directory for jupyter syncs correctly
 - Create a file from the host
 - view it with Jupyter from the container
