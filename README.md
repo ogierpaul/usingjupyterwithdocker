@@ -2,7 +2,8 @@
 - Short step by step tutorial to use docker for your data science projects
 - From a beginner point of view
 
-
+![Docker-Logo](https://github.com/ogierpaul/usingjupyterwithdocker/blob/master/images/docker_logo.png)
+![Jupyter-Logo](https://github.com/ogierpaul/usingjupyterwithdocker/blob/master/images/jupyter_logo.png)
 
 ## Deliverables
 - Run Jupyter in a docker container
