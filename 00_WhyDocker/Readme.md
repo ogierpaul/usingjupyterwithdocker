@@ -19,7 +19,9 @@
 ## Simple Diagram
 - Naive way to look at docker
 - but advantageous enough
-- Docker offers also great advantages in terms of infrastructure, Kubernetes, clusters... But I am not an expert as to why yet :)
+- Docker offers also great advantages in terms of infrastructure, Kubernetes, clusters... But I am not an expert as to why :)
+- See [how to run a docker on AWS](https://docker-curriculum.com/#docker-on-aws)
+
 ![Docker-Why](https://github.com/ogierpaul/usingjupyterwithdocker/blob/master/images/docker_diagram_why.jpg)
 
 ## Docker Concepts
@@ -50,5 +52,5 @@
 #### Docker-compose
 ![Docker-Compose](https://github.com/ogierpaul/usingjupyterwithdocker/blob/master/images/Docker-Compose.jpg)
 - Docker-Compose is a recipe how to build and run multiple containers
-- [From the doc] (https://docs.docker.com/compose/#:~:text=Compose%20is%20a%20tool%20for,the%20services%20from%20your%20configuration.&text=Run%20docker%2Dcompose%20up%20and,and%20runs%20your%20entire%20app.)
+- [From the doc] (https://docs.docker.com/compose/#:~:text=Compose%20is%20a%20tool%20for,the%20services%20from%20your%20configuration.&text=Run%20docker%2Dcompose%20up%20and,and%20runs%20your%20entire%20app)
 > Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application's services. Then, with a single command, you create and start all the services from your configuration. ... Run docker-compose up and Compose starts and runs your entire app.
