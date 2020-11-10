@@ -11,6 +11,15 @@
 - Share data between the host and the container
 - Run additional services
 
+## Project Structure
+- Incremental approach
+- Each step is one folder (Step1, ...) corresponding to one resulting docker image
+  - Step1: Run jupyter with docker from the command line
+  - Step2: Param environment variables with docker-compose
+  - Step3: Use a docker file to install additional python packages in the container
+  - Step4: Share your data, analysis directly in docker
+  - Step5: Use Jupyter with a database like PostgreSQL (Not done yet)
+
 
 ## How to run
 ### Pre-requisite: Docker Desktop
