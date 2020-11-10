@@ -1,0 +1,14 @@
+# Tell docker which base image to use
+FROM jupyter/minimal-notebook
+
+# Run additional commands. In this case, install the driver for PostgreSQL connection
+RUN pip install -U pandas
+
+# You can as well use a requirements.txt file (Path is relative to docker-compose.yml)
+COPY --chown=${NB_UID}:${NB_GID} /Dockerfiles/requirements.txt /tmp/
+RUN pip install --requirement /tmp/requirements.txt && \
+    fix-permissions $CONDA_DIR && \
+    fix-permissions /home/$NB_USER
+
+# Launch the jupyter notebook
+CMD ["jupyter", "notebook"]

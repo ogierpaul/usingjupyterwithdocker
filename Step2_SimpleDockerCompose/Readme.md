@@ -5,7 +5,7 @@
 - Expose the Jupyter Notebook interface locally on the host
 - Set-up a shared (synced) volume between the host and the container to share files
 
-### Advantages of using docker-compose
+### What has changed since Step1? Advantages of using docker-compose
 - You can set environment variables and volume shared in the YML file
   - Easier (IMHO) to read than a command line instruction
 - In the nexts lessons, you will be able in a single file to launch jupyter, postgres, and other containers from a single file

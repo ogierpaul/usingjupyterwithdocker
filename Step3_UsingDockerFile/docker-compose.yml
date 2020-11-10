@@ -1,0 +1,16 @@
+version: "3"
+services:
+  jupyter:
+    # From the Dockerfile for jupyter defined in /Dockerfiles/dockerfile-jupyter
+    build:
+      context: ./
+      dockerfile: ./Dockerfiles/dockerfile-jupyter
+    # Map the host port (8888) to the container port (8888)
+    ports:
+      - "8888:8888"
+    # Set the token to the environment variable defined in .env
+    environment:
+        JUPYTER_TOKEN: "$JUPYTER_TOKEN"
+    # Map (in ABSOLUTE) the host folder path to the Jupyter Container Work Directory
+    volumes:
+       - /Users/paulogier/87-docker_parent/usingjupyterwithdocker/Step3_UsingDockerFile/Jupyter_Home_Folder:/home/jovyan/

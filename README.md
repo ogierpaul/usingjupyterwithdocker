@@ -17,3 +17,5 @@ git clone https://github.com/ogierpaul/usingjupyterwithdocker.git
 ## Useful references:
 - [Docker Tutorial](https://docker-curriculum.com/#introduction)
 - [Sync Volumes](https://thenewstack.io/docker-basics-how-to-share-data-between-a-docker-container-and-host/)
+- [How to Put Jupyter Notebooks in a Dockerfile](https://u.group/thinking/how-to-put-jupyter-notebooks-in-a-dockerfile/)
+- [Nice Gist example](https://gist.github.com/psychemedia/8fa117e34c62b7f80b6c595b8ba4f488)
