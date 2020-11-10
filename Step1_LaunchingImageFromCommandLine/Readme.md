@@ -57,3 +57,13 @@ docker run -p 8888:8888 -e JUPYTER_TOKEN=letmein -v /Users/paulogier/87-docker_p
 - View the modifications in the host
 
 ### Congratulations!
+
+### Screenshots
+#### Jupyter Token Screenshots
+![Token-Prompt](https://github.com/ogierpaul/usingjupyterwithdocker/blob/master/images/Jupyter_Token_Prompt.png)
+
+#### See file from host in Jupyter
+![Jupyter-File](https://github.com/ogierpaul/usingjupyterwithdocker/blob/master/images/Jupyter_Greetings.png)
+
+#### See file edited in Jupyter in host
+![Host-File](https://github.com/ogierpaul/usingjupyterwithdocker/blob/master/images/Host_Greetings.png)
