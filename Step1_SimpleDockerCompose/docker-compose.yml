@@ -1,0 +1,18 @@
+version: "3.6"
+services:
+  jupyter:
+    # From the jupyter minimal notebook image
+    image: jupyter/minimal-notebook
+    # Map the host port to the container port
+    ports:
+      - "8888:8888"
+    # Set the token to the environment variable defined in .env
+    environment:
+        JUPYTER_TOKEN: "$JUPYTER_TOKEN"
+    # Map (in ABSOLUTE) the host folder path to the Jupyter Container Work Directory
+    volumes:
+       - /Users/paulogier/87-docker_parent/jupyter/Step1_SimpleDockerCompose/Jupyter_Home_Folder:/home/jovyan/
+
+# volumes:
+#   work:
+#     driver: local
