@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" modified="2020-11-10T19:22:38.294Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="_4SJmO_lbUdCVJ3RmrCf" version="13.9.3" type="github">
+  <diagram id="jmcAwgDks27LbzFI1kTM" name="Page-1">
+    <mxGraphModel dx="786" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MrIy0CdBetGggpzt7I_i-1" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="85.37" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIy0CdBetGggpzt7I_i-2" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.cloud_services_configuration_file;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIy0CdBetGggpzt7I_i-3" value="&lt;b style=&quot;font-size: 15px&quot;&gt;Docker Compose&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="100" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIy0CdBetGggpzt7I_i-4" value="Recipe to build and run from multiple images (Incl. setting up network...).&lt;br&gt;Include host-dependent configuration, (Ports, volumes, ), as well as environment variables" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="240" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIy0CdBetGggpzt7I_i-5" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.cloud_services_configuration_file;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="132.5" width="40" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIy0CdBetGggpzt7I_i-6" value="&lt;b style=&quot;font-size: 15px&quot;&gt;Docker Images&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="285" y="65" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIy0CdBetGggpzt7I_i-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-128.png" vertex="1" parent="1">
+          <mxGeometry x="320" y="87.5" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIy0CdBetGggpzt7I_i-8" value="Images from Docker Hub" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="374" y="90" width="86" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIy0CdBetGggpzt7I_i-9" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-128.png" vertex="1" parent="1">
+          <mxGeometry x="300" y="132.5" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIy0CdBetGggpzt7I_i-10" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-plus-empty-128.png" vertex="1" parent="1">
+          <mxGeometry x="335" y="140" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIy0CdBetGggpzt7I_i-11" value="Images from Hub customized / enhanced by dockerfile" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="140" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIy0CdBetGggpzt7I_i-12" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.cloud_services_configuration_file;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="210" width="40" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIy0CdBetGggpzt7I_i-13" value="&lt;b style=&quot;font-size: 15px&quot;&gt;Other files&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="285" y="190" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIy0CdBetGggpzt7I_i-14" value="Run" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MrIy0CdBetGggpzt7I_i-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="270" as="sourcePoint" />
+            <mxPoint x="300" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrIy0CdBetGggpzt7I_i-15" value="Uses" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MrIy0CdBetGggpzt7I_i-2" target="MrIy0CdBetGggpzt7I_i-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="190" as="sourcePoint" />
+            <mxPoint x="310" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrIy0CdBetGggpzt7I_i-16" value=".env for environment variables (Think password, AWS keys..)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="210" width="165" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIy0CdBetGggpzt7I_i-17" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.cloud_services_configuration_file;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="260" width="40" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIy0CdBetGggpzt7I_i-18" value="requirements.txt" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="374" y="272.5" width="165" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIy0CdBetGggpzt7I_i-19" value="Folders (Volumes)&lt;br&gt;Synced on Host" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="374" y="320" width="165" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MrIy0CdBetGggpzt7I_i-20" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.folder;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="46.15" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
