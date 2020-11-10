@@ -1,7 +1,8 @@
 # Step 6: Jupyter and Postgres
 ## Objective
 ### Deliverables
--
+- Two containers, 1 for Jupyter, 1 for PostgreSQL
+- Connection between the two
 
 ### What has changed since Step5?
 - We are using docker-compose to run two containers for jupyter (incl. psycopg2) and postgres
