@@ -2,6 +2,15 @@
 - Short step by step tutorial to use docker for your data science projects
 - From a beginner point of view
 
+
+
+## Deliverables
+- Run Jupyter in a docker container
+- Install additional libraries
+- Share data between the host and the container
+- Run additional services
+
+
 ## How to run
 ### Pre-requisite: Docker Desktop
 - Make sure Docker Desktop is installed [See here](https://docs.docker.com/docker-for-mac/install/)
