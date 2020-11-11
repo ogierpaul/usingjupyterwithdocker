@@ -3,6 +3,9 @@
 - Create one volume (directory) accessible in read and write by all containers
 - Read data from the host in a mounted volume with python, push it to postgres for fast COPY
 
+## Architecture
+-![]()
+
 ## Configuration
 - We will use dockerfile and bash
 
