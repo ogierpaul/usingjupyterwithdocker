@@ -4,7 +4,7 @@
 - Read data from the host in a mounted volume with python, push it to postgres for fast COPY
 
 ## Architecture
--![]()
+![Step7 Volumes Architecture](https://github.com/ogierpaul/usingjupyterwithdocker/blob/master/images/step7_architecture.png)
 
 ## Configuration
 - We will use dockerfile and bash
