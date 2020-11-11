@@ -1,0 +1,35 @@
+version: "3"
+services:
+  jupyter_service:
+    image: jupyter/minimal-notebook
+    # Map the host port (8888) to the container port (8888)
+    ports:
+      - "8888:8888"
+    # Set the token to the environment variable defined in .env
+    environment:
+        JUPYTER_TOKEN: "$JUPYTER_TOKEN"
+    # Map (in ABSOLUTE) the host folder path to the Jupyter Container Work Directory
+    volumes:
+      - type: bind
+        source: /Users/paulogier/87-docker_parent/usingjupyterwithdocker/Step7_Volumes/Jupyter_work
+        target: /home/jovyan/work
+      - type: volume
+        source: stavol
+        target: /home/jovyan/stavol
+    #
+    links:
+      - postgres_service
+
+  postgres_service:
+    # Use the official image from PostgreSQL
+    image: postgres
+    # Set up some environment variables. Password is stored in the .env file
+    environment:
+      POSTGRES_USER: myuser
+      POSTGRES_PASSWORD: "$POSTGRES_PASSWORD"
+      POSTGRES_DB: mydb
+    volumes:
+      - stavol:/home/stavol
+
+volumes:
+  stavol:

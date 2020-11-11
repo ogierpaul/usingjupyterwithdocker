@@ -41,5 +41,3 @@ docker-compose up --force-recreate --build -d
 ## References
 - [Getting Started with Compose PostgreSQL and Jupyter Notebooks](https://www.compose.com/articles/getting-started-with-compose-postgresql-and-jupyter-notebooks/)
 - [Docker Compose for Data Science](https://www.andrewmahon.info/blog/docker-compose-data-science)
-- [Transfering data between containers](https://medium.com/@gchudnov/copying-data-between-docker-containers-26890935da3f.)
-- [Creating a data volume](https://www.digitalocean.com/community/tutorials/how-to-share-data-between-docker-containers)
