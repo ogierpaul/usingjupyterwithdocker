@@ -1,5 +1,0 @@
-# The source image to start with
-FROM Jupiter/minimal-notebook
-
-# Create a volume
-# VOLUME /stagingarea
